@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:twistercrocus/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:twistercrocus/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:twistercrocus/prow:hmacToken
+segmentWriteKey: vault:twistercrocus:segmentWriteKey
